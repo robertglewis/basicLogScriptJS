@@ -1,8 +1,8 @@
 <?php
 $sSERVERNAME = 'localhost';
-$sUSER = 'rlewis';
-$sPASSWORD = 'L@wr3nce99';
-$sDATABASE = 'members';
+$sUSER = 'username';
+$sPASSWORD = 'password';
+$sDATABASE = 'tableName';
 
  //open connection to mysql db
 $con=mysqli_connect($sSERVERNAME,$sUSER,$sPASSWORD,$sDATABASE)or die("Error " . mysqli_error($connection));
